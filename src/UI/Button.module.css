@@ -1,0 +1,19 @@
+.button{
+    border: 1px solid rgb(201, 30, 30);
+    background: rgb(77, 60, 77);
+    color: white;
+    padding:0.5rem 2rem;
+    cursor:pointer;
+    margin: 1rem 1rem;
+    border-radius: 2px;
+}
+
+.button:hover,
+.button:active {
+    background: rgb(106, 3, 106);
+    border-color: blue;
+}
+
+.button:focus {
+    outline:none;
+}
